@@ -1,0 +1,120 @@
+.sop_cart{
+    background-color: black;
+    
+}
+.sop_cart h3{
+
+    font-size: 20px;
+    padding: 15px 0;
+}
+.cart_section .cart_header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.cart_section .cart_body{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e9e9e9;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.cart_section .cart_header .product{
+    flex-grow: 0.3;
+}
+.sami{
+    text-decoration: none;
+    color: #222;
+}
+
+.t4s-page_cart__info {
+    margin-inline-start: 15px;
+}
+.t4s-page_cart__meta {
+    font-size: 13px;
+    color: #505050;
+}
+.t4s-cart_meta_variant {
+    margin-bottom: 5px;
+}
+strong, b {
+    font-weight: 600;
+}
+a:hover{
+    color: firebrick;
+}
+.quantity_box {
+    display: flex;
+    gap: 10px;
+}
+.quantity_box button {
+    border: 1px solid gray;
+    width: 40px;
+}
+.quantity_box input {
+    border: 1px solid gray;
+    width: 40px;
+}
+.quantity_box button {
+    border: 1px solid gray;
+    width: 40px;
+}
+.segeo_font_1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #222;
+   
+}
+.sami_item{
+
+}
+
+
+
+.cart_section .cart_body .product{
+    flex-grow: 0.5;
+  }
+
+  #CartSpecialInstructions {
+    min-height: 100px;
+    color: #222;
+    padding: 8px 10px;
+    width: 100% !important;
+    resize: none;
+    margin-bottom: 20px;
+}
+
+.add_note textarea{
+    border: 1px solid #e9e9e9;
+    font-size: 13px;
+    outline: 0;
+    padding: 0 15px;
+    color: #505050 !important;
+    max-width: 100%;
+    width: 100%;
+    height: 40px;
+    line-height: 18px;
+    transition: border-color .5s;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.subtotal{
+    text-align: right;
+}
+.subtotal_p{
+    text-align: right;
+}
+.subtotal_p2{
+    text-align: right;
+    margin-left: 80px;
+}
+.btn_checkout{
+    background-color: red;
+    color: aliceblue;
+}

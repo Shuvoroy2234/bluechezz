@@ -1,0 +1,83 @@
+/* Extra Extra Small Device */
+@media (max-width: 320px){
+  .segeo_font_6 {
+    font-size: 26px;
+    
+}
+  .segeo_font_5 {
+    font-size: 16px;
+}
+  .btn {
+    border-radius: 0;
+    padding: 5px 19px;
+}
+    
+  }
+  @media (min-width: 320px){
+    
+      
+  }
+  /*Extra small devices (portrait phones, less than 576px)*/
+  @media (max-width: 575.98px) {
+    
+  }
+
+     
+    /* Small devices (landscape phones, 576px and up)*/
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      
+      
+    }
+    
+    /* Medium devices (tablets, 768px and up)*/
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      
+      
+    }
+    @media (max-width: 992px){
+      .belwary_text {
+        font-size: 30px;
+        left: auto;
+        position: absolute;
+        top: 50%;
+        color: #fff;
+        padding: 20px;
+        max-width: 360px;
+    }
+
+      .ACCESSORIES_text {
+        left: 50px;
+        right: 50px;
+        position: absolute;
+        top: 0%;
+        color: #fff;
+        padding: 20px;
+        font-size: 30px;
+    }
+    }
+    /* Large devices (desktops, 992px and up)*/
+    @media (min-width: 992px) {
+      
+  
+    }
+    @media (min-width: 992px) and (max-width: 1199.99px){
+      
+    }
+    /* Extra Large devices (desktops, 992px and up)*/
+    @media (min-width: 1200px) and (max-width: 1399.98px) {
+      
+    }
+    
+    /* Extra Extra large devices (large desktops, 1200px and up)*/
+    @media (min-width: 1400px) {
+      
+    }
+    
+    /* Extra Extra large devices (large desktops, 1200px and up)*/
+    @media (min-width: 1600px) {
+      .container-xl{
+        max-width: 1480px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }

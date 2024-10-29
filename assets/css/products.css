@@ -1,0 +1,61 @@
+.product-item{
+    position: relative;
+    padding: 5px;
+}
+.product-item .image {
+    position: relative;
+    aspect-ratio: 7/10;
+    overflow: hidden;
+}
+.product-item .image .secondary_image{
+    visibility: hidden;
+    opacity: 0;
+    transition: 2s;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.product-item:hover .image .secondary_image{
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1.5);
+    
+}
+.product-item:hover .image .primary_image{
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(1.5);
+}
+.product-item .image .primary_image{
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+    transition: 2s;
+}
+.fixed_content{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+}
+.fixed_content a{
+    color: rgb(78, 78, 78);
+    display: block;
+    padding: 5px;
+}
+.product-item:hover .fixed_content{
+    visibility: visible;
+    opacity: 1;
+}
+.product-item .content .hoverable{
+    color: rgb(31, 30, 30);
+    cursor: pointer;
+    text-decoration: none;
+}
+.product-item:hover .content .hoverable{
+    color: rgb(187, 10, 10);
+    cursor: pointer;
+}
